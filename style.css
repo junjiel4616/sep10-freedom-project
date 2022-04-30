@@ -1,6 +1,28 @@
 .bg-1 {
-    background-color: lightblue;
+    background-color: #495057;
     padding: 20px 20px 20px 20px;
     margin-bottom: 50px;
-    border: black solid 10px;
+    border: #343a40 solid 20px;
+}
+body {
+  background-color: #212529;
+}
+a-scene {
+  height: 300px;
+  width: 600px;
+}
+.carousel-spacing {
+  margin-left: 150px;
+  margin-bottom: 55px;
+}
+.h1-spacing {
+  margin-bottom: 50px;
+}
+@media (min-width: 1900px) {
+  .test {
+    margin-bottom: 220px;
+  }
+}
+.test1 {
+  text-align: center;
 }
