@@ -110,11 +110,12 @@
             <div class="col-lg-6">
               <div id="myEmbeddedScene">
                 <a-scene embedded>
-                  <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-                  <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-                  <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-                  <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-                  <a-sky color="#ECECEC"></a-sky>
+                  <a-assets>
+                    <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg">
+                  </a-assets>
+                  <a-plane src="#groundTexture" rotation=" -90 0 0" width="30" height="30"></a-plane>
+                  <a-sky color="#495057"></a-sky>
+                  <
                 </a-scene>
               </div>
             </div>
@@ -126,7 +127,7 @@
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="accordion-button black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 Contact Information
               </button>
             </h2>

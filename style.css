@@ -24,6 +24,7 @@ a-scene {
     margin-bottom: 220px;
   }
 }
-.test1 {
-  text-align: center;
+.black {
+  color: white;
+  background-color: #495057;
 }
