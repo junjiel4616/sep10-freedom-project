@@ -12,6 +12,12 @@ a-scene {
   height: 300px;
   width: 600px;
 }
+@media (max-width: 800px) {
+  .test {
+    height: 300px;
+    width: 300px;
+  }
+}
 .carousel-spacing {
   margin-left: 150px;
   margin-bottom: 55px;
